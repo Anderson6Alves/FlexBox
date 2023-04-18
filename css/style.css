@@ -1,0 +1,99 @@
+body {
+    background-color: aqua;
+}
+
+#h1 {
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0); 
+}
+
+.bloco1 {
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.conteiner-r {
+    background-color: black;
+    padding: 16px;
+    height: 250px;
+
+    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.conteiner-rr {
+    background-color: rgb(73, 73, 73);
+    padding: 16px;
+    height: 250px;
+
+    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.conteiner-c {
+    background-color: rgb(83, 83, 83);
+    padding: 16px;
+    height: 500px;
+
+    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.conteiner-cr {
+    background-color: rgb(92, 92, 92);
+    padding: 16px;
+    height: 500px;
+
+    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    display: flex;
+    flex-direction: column-reverse;
+
+
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;   
+}
