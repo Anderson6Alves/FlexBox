@@ -65,6 +65,63 @@ h2 {
     border-radius: 16px;
 }
 
+.bloco1bl {
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2bl {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3bl {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco1sem-altura {
+    background-color: rgb(255, 0, 0);
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco2sem-altura {
+    background-color: green;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco3sem-altura {
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
 .conteiner-r {
     background-color: black;
     padding: 16px;
@@ -227,13 +284,29 @@ h2 {
     padding: 16px;
     height: 250px;
 
-    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    /* estica os itens no eixo primario*/
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
 
 }
+
+.conteiner-rbl {
+    background-color: rgb(203, 203, 203);
+    padding: 16px;
+    height: 250px;
+
+    /* display:flex serve para identificar que esta tag vai ser um conteiner de flex box*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*alinha o conteiner com a base do texto */
+    align-items: baseline;
+
+}
+
+/* flex serve para identificar que esta */
 
 
 
