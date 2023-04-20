@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(72, 83, 83);
 }
 
 h1 {
@@ -355,6 +355,23 @@ h2 {
     flex-wrap: wrap-reverse;
 
 }
+
+.conteiner-ff-row-nowrap {
+    background-color: rgb(163, 163, 163);
+    padding: 16px;
+    height: 450px;
+
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: wrap-reverse;*/
+
+    /* É possivel ter mais possibilidades utilizando o flex-flow*/
+    flex-flow: row nowrap;
+
+}
+
 
 
 
